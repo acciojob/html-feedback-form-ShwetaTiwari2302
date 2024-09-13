@@ -9,14 +9,15 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form name="Feedback Form" method="post">
-		Name<input type="text" id="name" minlength="3" maxlength="50" required><br>
-
-		Portfolio<input type="url" id="portfolio" required><br>
-
-		Favorite Color<input type="color" id="favColor" required><br>
-
-		Likeness<input type="range" id="likeness" min="1" max="100" required><br>
-		<input type="submit" value="post"></input>
+		<lable for="name">Name</lable>
+		<input id="name" name="name" type="text" minlength="3" maxlength="50" required><br>
+		<lable for="portfolio">Portfolio</lable>
+		<input id="portfolio" name="portfolio" type="url" required><br>
+		<lable for="favColor">Favorite Color</lable>
+		<input id="favColor" name="favColor" type="color"><br>
+		<lable for="likeness">Likeness</lable>
+		<input id="likeness" name="Likenesse" type="range" min="3" max="100" required><br>
+		<!-- <input type="submit" value="post"></input> -->
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
